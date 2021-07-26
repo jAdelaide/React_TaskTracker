@@ -9,16 +9,15 @@
 body {
   font-family: 'Poppins';
   color: indigo;
-  text-shadow: violet 2.5px 2px;
   background-color: rgb(150, 95, 155);
 }
 
-h3 {
-  text-shadow: violet 1px 1px;
+h1, h2 {
+  text-shadow: rgb(218, 101, 218) 2.5px 2px;
 }
 
-p {
-  text-shadow: none;
+h3, h4, h5 {
+  text-shadow: rgb(218, 101, 218) 1px 1px;
 }
 
 .container {
@@ -27,7 +26,7 @@ p {
   overflow: auto;
   min-height: 300px;
   background-color: rgb(220, 185, 240);
-  border: 3px solid rgb(83, 71, 161);
+  border: 3px solid ;
   padding: 30px;
   border-radius: 20px;
 }
@@ -46,35 +45,39 @@ p {
   border: none;
   padding: 10px 20px;
   margin: 5px;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
   text-decoration: none;
   font-size: 15px;
   font-family: inherit;
+  text-shadow: black 1px 1px;
 }
 
 .btn:focus {
   outline: none;
+  outline: none;
 }
 
 .btn:active {
-  transform: scale(0.98);
+  transform: scale(0.9);
 }
 
 .btn-block {
   display: block;
   width: 100%;
+  background-color: rgb(54, 32, 116);
 }
 
 .task {
-  background: #f4f4f4;
+  background: rgb(253, 229, 253);
   margin: 5px;
   padding: 10px 20px;
-  cursor: pointer;
+  cursor: grab;
+  border-radius: 10px;
 }
 
 .task.reminder {
-  border-left: 5px solid green;
+  border-left: 15px solid rgb(71, 179, 71);
 }
 
 .task h3 {
@@ -101,6 +104,7 @@ p {
   margin: 5px;
   padding: 3px 7px;
   font-size: 17px;
+  border-radius: 8px;
 }
 
 .form-control-check {
