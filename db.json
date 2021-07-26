@@ -1,15 +1,15 @@
 {
   "tasks": [
     {
-      "text": "Grocery shopping",
-      "notes": "Take shopping list",
-      "reminder": true,
+      "text": "Task 1",
+      "notes": "Random notes",
+      "reminder": false,
       "id": 1
     },
     {
-      "text": "Vaccination appointment",
-      "notes": "15th of August",
-      "reminder": false,
+      "text": "Task 2",
+      "notes": "",
+      "reminder": true,
       "id": 2
     }
   ]

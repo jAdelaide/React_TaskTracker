@@ -16,8 +16,13 @@ h1, h2 {
   text-shadow: rgb(218, 101, 218) 2.5px 2px;
 }
 
-h3, h4, h5 {
+h3 {
   text-shadow: rgb(218, 101, 218) 1px 1px;
+}
+
+h4 {
+  text-shadow: rgb(25, 165, 49) 0.5px 0.5px;
+  text-align: center;
 }
 
 .container {
