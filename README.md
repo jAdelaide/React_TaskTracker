@@ -1,6 +1,6 @@
 # React Task Tracker
 
-Making a task tracker to learn React using this [Traversy Media YouTube tutuorial](https://www.youtube.com/watch?v=w7ejDZ8SWv8).
+Making a responsive task tracker with React using this [Traversy Media YouTube tutuorial](https://www.youtube.com/watch?v=w7ejDZ8SWv8).
 
 #### Use this code to serve the database to port :5005
 npm run server
