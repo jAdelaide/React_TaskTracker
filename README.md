@@ -1,5 +1,4 @@
-# React Task Tracker
-### Images in Screenshots folder
+# React Task Tracker - images in the Screenshots folder
 
 Making a responsive task tracker with React using this [Traversy Media YouTube tutuorial](https://www.youtube.com/watch?v=w7ejDZ8SWv8).
 
